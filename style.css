@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Miltonian Tattoo";
+    font-size: 15px;
+}
+
+.title {
+    display: flex;
+    background: #080808;
+    color: antiquewhite;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    font-size: 50px;
+
+}
+
+section {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    cursor: pointer;
+    margin: 0 15px
+
+}
+
+.containerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    padding: 10px;
+    box-shadow: 0px 0px 1px;
+
+    background: linear-gradient(to bottom, rgb(175, 103, 103), transparent);
+    border-radius: 5%;
+
+}
+
+.containerImg .img {
+    display: grid;
+    max-width: 90%;
+    height: auto;
+    border-radius: 5%;
+
+
+
+
+
+}
+
+.containerName {
+
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 1px;
+    background: linear-gradient(to bottom, rgb(110, 44, 44), transparent);
+}
+
+
+.species {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(240, 237, 237), transparent);
+    color: rgb(8, 8, 8);
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+footer{
+    display: grid;
+    margin-top: 5%;
+
+    justify-content: center;
+    background: #080808;
+    color: antiquewhite;
+}
+
+ .in{
+    display: grid;
+    width: 50px;
+    height: 40px;
+    justify-content: center;
+    background:#f0eaea;
+    border-radius: 5px;
+}
